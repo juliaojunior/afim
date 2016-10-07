@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AFIM</title>
+    <link rel="stylesheet" href="../icons/material.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/katex.min.css">
+    <link rel="stylesheet" href="../css/afim.css">
+    <script type="text/javascript" src="../js/katex.min.js"></script>
+</head>
+<body>
+
+    <div class="topo-fixo z-depth-1">
+        <div class="valign-wrapper green darken-1 white-text">
+            <h5 class="titulo">AFIM  -  Eletrostática</h5>
+
+            <div>
+                <a href="../index.html"><i class="material-icons waves-effect
+                          waves-light waves-circle">home</i></a>
+            </div>
+        </div>
+
+       
+    </div>
+	
+    <div class="resumo-page"">
+
+              <table>
+                    <tr ><td>Processos de Eletrização
+                         </td>
+                        <td><em>Contato, atrito e indução</em>
+                        </td>
+                    </tr>
+                    <tr ><td>Lei de Coulomb
+                        </td>
+                        <td><span id="eq1" class="equacoes">
+                        <script>katex.render("F = k \\frac{Q_1 Q_2}{d^2}", eq1);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Campo Elétrico
+                        </td>
+                        <td><span id="eq2" class="equacoes">
+                        <script>katex.render("\\vec E = \\frac{\\vec F}{q}", eq2);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Campo Elétrico
+                        </td>
+                        <td><span id="eq3" class="equacoes">
+                        <script>katex.render("E = k \\frac{Q}{d^2}", eq3);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Potencial Elétrico
+                        </td>
+                        <td><span id="eq4" class="equacoes">
+                        <script>katex.render("V = \\frac{E_p}{q}", eq4);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Potencial da carga puntiforme</td>
+                        <td><span id="eq5" class="equacoes">
+                        <script>katex.render("V = k \\frac{Q}{d}", eq5);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Energia Potencial Eletrostática
+                        </td>
+                        <td><span id="eq6" class="equacoes">
+                        <script>katex.render("E_p = k \\frac{Q_1 Q_2}{d}", eq6);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Trabalho em eletrostática
+                        </td>
+                        <td><span id="eq7" class="equacoes">
+                        <script>katex.render("\\tau = q(V_a + V_b)", eq7);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Potencial vs. Campo Elétrico
+                        </td>
+                        <td><span id="eq8" class="equacoes">
+                        <script>katex.render("V_a - V_b = V_{ab} = E d", eq8);
+                        </script>
+                        </td>
+                    </tr>                
+              </table>
+                
+                
+
+    </div>
+
+
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+   
+</body>
+</html>

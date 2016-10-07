@@ -1,0 +1,97 @@
+/* estilos especificos da aplicacao */
+
+
+/* classe para a pagina principal dos resumos */
+.resumo-page  {
+	padding-top: 90px;
+	padding-left: 10px;
+}
+
+.equacoes	{
+	padding-top: 10px;
+}
+
+
+.subtitulo {
+	text-decoration-style: bold;
+}
+
+
+
+/* estilos para a pagina index.html*/
+
+#mec1 {
+	display: none;
+}
+
+#mec2 {
+	display: none;
+}
+
+#mec3 {
+	display: none;
+}
+
+#mec4 {
+	display: none;
+}
+
+#cal1 {
+	display: none;
+}
+
+#cal2 {
+	display: none;
+}
+
+#cal3 {
+	display: none;
+}
+
+#opt1 {
+	display: none;
+}
+
+#opt2 {
+	display: none;
+}
+
+#opt3 {
+	display: none;
+}
+
+#ond1 {
+	display: none;
+}
+
+#ond2 {
+	display: none;
+}
+
+#ond3 {
+	display: none;
+}
+
+#ele1 {
+	display: none;
+}
+
+#ele2 {
+	display: none;
+}
+
+#ele3 {
+	display: none;
+}
+
+#mod1 {
+	display: none;
+}
+
+#mod2 {
+	display: none;
+}
+
+#mod3 {
+	display: none;
+}

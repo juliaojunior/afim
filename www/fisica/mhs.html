@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AFIM</title>
+    <link rel="stylesheet" href="../icons/material.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/katex.min.css">
+    <link rel="stylesheet" href="../css/afim.css">
+    <script type="text/javascript" src="../js/katex.min.js"></script>
+</head>
+<body>
+
+    <div class="topo-fixo z-depth-1">
+        <div class="valign-wrapper green darken-1 white-text">
+            <h5 class="titulo">AFIM  -  MHS</h5>
+
+            <div>
+                <a href="../index.html"><i class="material-icons waves-effect
+                          waves-light waves-circle">home</i></a>
+            </div>
+        </div>
+
+       
+    </div>
+	
+    <div class="resumo-page">
+
+              <table class="bordered">
+                    <tr><td>Período
+                        </td>
+                        <td><span id="eq1" class="equacoes">
+                        <script>katex.render("T = \\frac{\\Delta t}{n}", eq1);</script>
+                        </td>
+                    </tr>
+                    <tr ><td>Frequência
+                        </td>
+                        <td><span id="eq2" class="equacoes">
+                        <script>katex.render("f = \\frac{n}{\\Delta} = \\frac{1}{T}", eq2);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Função horária angular
+                        </td>
+                        <td><span id="eq3" class="equacoes">
+                        <script>katex.render("\\phi = (\\phi_0 + \\omega t)", eq3);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Função horária da posição
+                        </td>
+                        <td><span id="eq4" class="equacoes">
+                        <script>katex.render("x = A \\cos (\\phi_0 + \\omega t)", eq4);
+                        </script>
+                        </td>)
+                    </tr>
+                    <tr ><td>Função horária da velocidade
+                        </td>
+                        <td><span id="eq5" class="equacoes">
+                        <script>katex.render("v = - \\omega A sen(\\phi + \\omega t)", eq5);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Função horária da aceleração
+                    </td>
+                        <td><span id="eq6" class="equacoes">
+                        <script>katex.render("a = -\\omega^2 A \\cos(\\phi + \\omega t)", eq6);
+                        </script></br>
+                        <span id="eq61" class="equacoes">
+                        <script>katex.render("= -\\omega^2 x", eq61);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Força
+                        </td>
+                        <td><span id="eq7" class="equacoes">
+                        <script>katex.render("F = -m \\omega^2 x", eq7);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Constante elástica
+                        </td>
+                        <td><span id="eq8" class="equacoes">
+                        <script>katex.render("k = m \\omega^2", eq8);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Período
+                        </td>
+                        <td><span id="eq9" class="equacoes">
+                        <script>katex.render("T = 2 \\pi \\sqrt{\\frac{m}{k}}", eq9);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Período pêndulo simples
+                        </td>
+                        <td><span id="eq10" class="equacoes">
+                        <script>katex.render("T = 2 \\pi \\sqrt{\\frac{l}{g}}", eq10);
+                        </script>
+                        </td>
+                    </tr>
+              </table>
+                
+                
+
+    </div>
+
+
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+   
+</body>
+</html>

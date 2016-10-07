@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AFIM</title>
+    <link rel="stylesheet" href="../icons/material.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/katex.min.css">
+    <link rel="stylesheet" href="../css/afim.css">
+    <script type="text/javascript" src="../js/katex.min.js"></script>
+</head>
+<body>
+
+    <div class="topo-fixo z-depth-1">
+        <div class="valign-wrapper green darken-1 white-text">
+            <h5 class="titulo">AFIM  -  Eletrodinâmica</h5>
+
+            <div>
+                <<a href="../index.html"><i class="material-icons waves-effect
+                          waves-light waves-circle">home</i></a>
+            </div>
+        </div>
+
+       
+    </div>
+	
+    <div class="resumo-page"">
+
+              <table>
+                    <tr ><td>Corrente Elétrica
+                        </td>
+                        <td><span id="eq1" class="equacoes">
+                        <script>katex.render("i = \\frac{\\Delta Q}{\\Delta t}", eq1);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Carga elétrica
+                        </td>
+                        <td><span id="eq2" class="equacoes">
+                        <script>katex.render("\\Delta Q = n e", eq2);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Carga fundamental
+                        </td>
+                        <td><span id="eq3" class="equacoes">
+                        <script>katex.render("e = 1.6 x 10^{-19}C", eq3);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Primeira Lei de Ohm
+                        </td>
+                        <td><span id="eq4" class="equacoes">
+                        <script>katex.render("U = R i", eq4);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Segunda Lei de Ohm</td>
+                        <td><span id="eq5" class="equacoes">
+                        <script>katex.render("R = \\rho \\frac{l}{S}", eq5);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Potencia Dissipada 
+                        </td>
+                        <td><span id="eq6" class="equacoes">
+                        <script>katex.render("P = U i", eq6);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Resistores (em série)
+                        </td>
+                        <td><span id="eq7" class="equacoes">
+                        <script>katex.render("R_{eq} = R_1 + R_2 + ... + R_n", eq7);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Resistores (em paralelo)
+                        </td>
+                        <td><span id="eq8" class="equacoes">
+                        <script>katex.render("\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} +  ... \\frac{1}{R_n}", eq8);
+                        </script>
+                        </td>
+                    </tr>                
+                    <tr ><td>Equação do Gerador
+                        </td>
+                        <td><span id="eq9" class="equacoes">
+                        <script>katex.render("U = E - r i", eq9);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Pot Dissipada (resistor)
+                        </td>
+                        <td><span id="eq10" class="equacoes">
+                        <script>katex.render("P_d = r i^2", eq10);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Capacitância
+                        </td>
+                        <td><span id="eq11" class="equacoes">
+                        <script>katex.render("C = \\frac{Q}{U}", eq11);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Capacîtância placas planas
+                        </td>
+                        <td><span id="eq12" class="equacoes">
+                        <script>katex.render("C = \\epsilon \\frac{A}{d}", eq12);
+                        </script>
+                        </td>
+                    </tr>
+
+
+
+
+                    <tr ><td>Energia Pot. Capacitor
+                        </td>
+                        <td><span id="eq13" class="equacoes">
+                        <script>katex.render("E_p = \\frac{QU}{2} = \\frac{CU^2}{2}", eq13);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Capacitores em Série
+                        </td>
+                        <td><span id="eq14" class="equacoes">
+                        <script>katex.render("\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} +  ... \\frac{1}{C_n}", eq14);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Capacitores em Paralelo
+                        </td>
+                        <td><span id="eq15" class="equacoes">
+                        <script>katex.render("C_{eq} = C_1 + C_2 + ... + C_n", eq15);
+                        </script>
+                        </td>
+                    </tr>
+              </table>
+                
+                
+
+    </div>
+
+
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+   
+</body>
+</html>

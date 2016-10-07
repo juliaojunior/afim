@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AFIM</title>
+    <link rel="stylesheet" href="../icons/material.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/katex.min.css">
+    <link rel="stylesheet" href="../css/afim.css">
+    <script type="text/javascript" src="../js/katex.min.js"></script>
+</head>
+<body>
+
+    <div class="topo-fixo z-depth-1">
+        <div class="valign-wrapper green darken-1 white-text">
+            <h5 class="titulo">AFIM  -  Eletromagnetismo</h5>
+
+            <div>
+                <a href="../index.html"><i class="material-icons waves-effect
+                          waves-light waves-circle">home</i></a>
+            </div>
+        </div>
+
+       
+    </div>
+	
+    <div class="resumo-page"">
+
+              <table>
+                    <tr ><td>Substâncias magnéticas
+                        </td>
+                        <td>Ferromagnéticas, paramagnéticas e diamagnéticas
+                        </td>
+                    </tr>
+                    <tr ><td>Campo B (espira)
+                        </td>
+                        <td><span id="eq1" class="equacoes">
+                        <script>katex.render("B = \\frac{\\mu_0 i}{2 R}", eq1);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Campo B (fio curvilíneo)
+                        </td>
+                        <td><span id="eq2" class="equacoes">
+                        <script>katex.render("B = \\frac{\\mu_0 i}{2 \\pi d}", eq2);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Campo B (solenóide)
+                        </td>
+                        <td><span id="eq3" class="equacoes">
+                        <script>katex.render("B = \\frac{\\mu_0 N i}{l}",eq3);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Força magnética
+                        </td>
+                        <td><span id="eq4" class="equacoes">
+                        <script>katex.render("F_m = q v B \\sin \\alpha", eq4);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Força magnética (fios)
+                        </td>
+                        <td><span id="eq5" class="equacoes">
+                        <script>katex.render("F_m = \\frac{\\mu_0 i_1 i_2 l}{2 \\pi d}", eq5);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Fluxo magnético
+                        </td>
+                        <td><span id="eq6" class="equacoes">
+                        <script>katex.render("\\phi = B A \\cos \\theta", eq6);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Lei de Farad
+                        </td>
+                        <td><span id="eq7" class="equacoes">
+                        <script>katex.render("\\epsilon = \\frac{-\\Delta \\phi}{\\Delta t}", eq7);
+                        </script>
+                        </td>
+                    </tr>
+              </table>
+                
+                
+
+    </div>
+
+
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+   
+</body>
+</html>

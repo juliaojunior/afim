@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AFIM</title>
+    <link rel="stylesheet" href="../icons/material.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/katex.min.css">
+    <link rel="stylesheet" href="../css/afim.css">
+    <script type="text/javascript" src="../js/katex.min.js"></script>
+</head>
+<body>
+
+    <div class="topo-fixo z-depth-1">
+        <div class="valign-wrapper green darken-1 white-text">
+            <h5 class="titulo">AFIM  -  Calorimetria</h5>
+
+            <div>
+                <a href="../index.html"><i class="material-icons waves-effect
+                          waves-light waves-circle">home</i></a>
+            </div>
+        </div>
+
+       
+    </div>
+	
+    <div class="resumo-page"">
+
+              <table class="bordered">
+                    <tr><td>Calor
+                        </td>
+                        <td>Energia térmica transferida entre corpos com temperaturas diferentes
+                        </td>
+                    </tr>
+                    <tr ><td>Caloria vs Joules
+                        </td>
+                        <td>1 cal = 4,186 J
+                        </td>
+                    </tr>
+                    <tr ><td>Calor sensível
+                        </td>
+                        <td><span id="eq3" class="equacoes">
+                        <script>katex.render("Q = c m \\Delta \\theta ", eq3);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Calor latente
+                        </td>
+                        <td><span id="eq4" class="equacoes">
+                        <script>katex.render("Q = m L", eq4);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Sistemas isolados
+                        </td>
+                        <td><span id="eq5" class="equacoes">
+                        <script>katex.render("\\sum Q_i = 0", eq5);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Capacidade térmica
+                        </td>
+                        <td><span id="eq6" class="equacoes">
+                        <script>katex.render("C = \\frac{Q}{\\Delta \\theta}", eq6);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Fluxo de calor
+                        </td>
+                        <td>Condução, convecção, irradiação
+                        </td>
+                    </tr>
+                    <tr><td>Fluxo de calor
+                        </td>
+                        <td><span id="eq8" class="equacoes">
+                        <script>katex.render("\\Phi = \\frac{Q}{\\Delta t}", eq8);
+                        </script>
+                        </td>
+                    </tr>                    
+              </table>
+                
+                
+
+    </div>
+
+
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+   
+</body>
+</html>

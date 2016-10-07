@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AFIM</title>
+    <link rel="stylesheet" href="../icons/material.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/katex.min.css">
+    <link rel="stylesheet" href="../css/afim.css">
+    <script type="text/javascript" src="../js/katex.min.js"></script>
+</head>
+<body>
+
+    <div class="topo-fixo z-depth-1">
+        <div class="valign-wrapper green darken-1 white-text">
+            <h5 class="titulo">AFIM  -  Gravitação</h5>
+
+            <div>
+                <a href="../index.html"><i class="material-icons waves-effect
+                          waves-light waves-circle">home</i></a>
+            </div>
+        </div>
+
+       
+    </div>
+	
+    <div class="resumo-page"">
+
+              <table>
+                    <tr><td>Primeira Lei de Kepler
+                        </td>
+                        <td>A trajetória dos planetas forma uma elipse, com o Sol em um dos focos
+                        </td>
+                    </tr>
+                    <tr ><td>Segunda Lei de Kepler
+                        </td>
+                        <td>O segmento unindo um planeta ao Sol 'varre' áreas iguais em tempos iguais
+                        </td>
+                    </tr>
+                    <tr ><td>Terceira Lei de Kepler
+                        </td>
+                        <td><span id="eq1" class="equacoes">
+                        <script>katex.render("\\frac{T_1^2}{R_1^2} = \\frac{T_2^2}{R_2^2}", eq1);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Lei Universal da Gravitação
+                        </td>
+                        <td><span id="eq2" class="equacoes">
+                        <script>katex.render("\\vec F_{g} = G\\frac{M_1 M_2}{R^2}", eq2);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Aceleração da Gravidade (na superfície)
+                        </td>
+                        <td><span id="eq3" class="equacoes">
+                        <script>katex.render("a = \\frac{G M}{R^2}", eq3);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Aceleração da Gravidade (altura <strong>h</strong>)
+                    </td>
+                        <td><span id="eq4" class="equacoes">
+                        <script>katex.render("a_h = a(\\frac{R}{R + h})^2", eq4);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr><td>Velocidade Orbital
+                        </td>
+                        <td><span id="eq5" class="equacoes">
+                        <script>katex.render("v_{orb} = \\sqrt{\\frac{G M}{R + h}}", eq5);
+                        </script>
+                        </td>
+                    </tr>                    
+              </table>
+                
+                
+
+    </div>
+
+
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+   
+</body>
+</html>

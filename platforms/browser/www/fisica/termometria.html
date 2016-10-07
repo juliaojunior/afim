@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AFIM</title>
+    <link rel="stylesheet" href="../icons/material.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/katex.min.css">
+    <link rel="stylesheet" href="../css/afim.css">
+    <script type="text/javascript" src="../js/katex.min.js"></script>
+</head>
+<body>
+
+    <div class="topo-fixo z-depth-1">
+        <div class="valign-wrapper green darken-1 white-text">
+            <h5 class="titulo">AFIM  -  Termometria</h5>
+
+            <div>
+                <<a href="../index.html"><i class="material-icons waves-effect
+                          waves-light waves-circle">home</i></a>
+            </div>
+        </div>
+
+       
+    </div>
+	
+    <div class="resumo-page"">
+
+              <table class="bordered">
+                    <tr ><td>Escalas
+                        </td>
+                        <td><span id="eq1" class="equacoes">
+                        <script>katex.render("\\frac{T_c}{5} = \\frac{T_f - 32}{9} = \\frac{T_k -273}{5}", eq1);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Dilatação Linear
+                        </td>
+                        <td><span id="eq2" class="equacoes">
+                        <script>katex.render("\\Delta L = L_0 \\alpha \\Delta t", eq2);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Dilatação Linear
+                        </td>
+                        <td><span id="eq3" class="equacoes">
+                        <script>katex.render("L = L_0 (1 + \\alpha \\Delta t)",eq3);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Gráfico Comprimento vs Temperatura
+                        </td>
+                        <td><span id="ccc" class="equacoes">
+                        <script>katex.render("\\tan \\phi = \\frac{\\Delta L}{\\Delta \\theta}",ccc);
+                        </script>
+                        </td>
+                    </tr>
+
+
+                    <tr ><td>Dilatação Superficial
+                        </td>
+                        <td><span id="eq4" class="equacoes">
+                        <script>katex.render("\\Delta S = S_0 \\beta \\Delta t", eq4);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Dilatação Superficial
+                        </td>
+                        <td><span id="eq5" class="equacoes">
+                        <script>katex.render("S = S_0 (1 + \\beta + \\Delta t)", eq5);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Dilatação Volumétrica
+                        </td>
+                        <td><span id="eq6" class="equacoes">
+                        <script>katex.render("\\Delta V = V_0 \\gamma \\Delta t", eq6);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Dilatação Voĺumétrica
+                        </td>
+                        <td><span id="eq7" class="equacoes">
+                        <script>katex.render("V = V_0 (1 + \\gamma \\Delta t)", eq7);
+                        </script>
+                        </td>
+                    <tr ><td>Coeficientes
+                        </td>
+                        <td><span id="ddd" class="equacoes">
+                        <script>katex.render("\\frac{\\alpha}{1} = \\frac{\\beta}{2} = \\frac{\\gamma}{3}",ddd);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Dilatação dos líquidos
+                        </td>
+                        <td><span id="eee" class="equacoes">
+                        <script>katex.render("\\Delta V_{real} = \\Delta V_{rec} + \\Delta V_{aparente}",eee);
+                        </script>
+                        </td>
+                    </tr>
+
+
+                    </tr>
+              </table>
+                
+                
+
+    </div>
+
+
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+   
+</body>
+</html>

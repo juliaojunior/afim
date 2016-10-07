@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AFIM</title>
+    <link rel="stylesheet" href="../icons/material.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/katex.min.css">
+    <link rel="stylesheet" href="../css/afim.css">
+    <script type="text/javascript" src="../js/katex.min.js"></script>
+</head>
+<body>
+
+    <div class="topo-fixo z-depth-1">
+        <div class="valign-wrapper green darken-1 white-text">
+            <h5 class="titulo">AFIM  -  Óptica Geométrica</h5>
+
+            <div>
+                <a href="../index.html"><i class="material-icons waves-effect
+                          waves-light waves-circle">home</i></a>
+            </div>
+        </div>
+
+       
+    </div>
+	
+    <div class="resumo-page">
+
+              <table class="bordered">
+                    <tr><td>Feixes de luz
+                        </td>
+                        <td>Cônico convergente, cônico divergente, cilindro paralelo
+                        </td>
+                    </tr>
+                    <tr ><td>Fontes de luz
+                        </td>
+                        <td>Primárias ou secundárias, puntiforme ou extensa
+                        </td>
+                    </tr>
+                    <tr ><td>Meio transparente
+                        </td>
+                        <td>Permite propagação regular da luz; boa nitidez
+                        </td>
+                    </tr>
+                    <tr ><td>Meio translúcido
+                        </td>
+                        <td>Permite propagação irregular da luz; pouca nitidez
+                        </td>
+                    </tr>
+                    <tr ><td>Meio opaco
+                        </td>
+                        <td>Não permite propagação da luz
+                        </td>
+                    </tr>
+                    <tr ><td>Reflexão regular
+                        </td>
+                        <td>Os raios incidentes e refletidos são paralelos; superfícies refletoras sem rugosidade
+                        </td>
+                    </tr>
+                    <tr ><td>Reflexão difusa
+                        </td>
+                        <td>Os raios incidentes são paralelos mas os raios refletidos não são; superfícies refletores com rugosidade
+                        </td>
+                    </tr>
+                    <tr ><td>Refração
+                        </td>
+                        <td>Desvio do raio luminoso ao atravesar uma superfície
+                        </td>
+                    </tr>
+                    <tr ><td>Absorção
+                        </td>
+                        <td>A luz incidente sobre uma superfície não é refletida nem refratada; a luz é absorvida pelo corpo, implicando em aumento de temperatura
+                        </td>
+                    </tr>
+                     <tr><td>Princípio: Propagação retilínea
+                        </td>
+                        <td>Em meios transparentes e homogêneos, a propagação de um raio luminoso segue uma trajetória retilínea
+                        </td>
+                    <tr ><td>Princípio: Independência dos raios luminosos
+                        </td>
+                        <td>Um raio luminoso não interferem na trajetória de outro raio luminoso.
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr ><td>Sombra
+                        </td>
+                        <td>Região sem luz direta da fonte
+                        </td>
+                    </tr>
+                    <tr ><td>Penumbra
+                        </td>
+                        <td>Região que recebe apenas parte da luz da fonte; apenas na presença de fonte de luz extensa
+                        </td>
+                    </tr>
+                    <tr ><td>Equação da câmara escura
+                        </td>
+                        <td><span id="eq1" class="equacoes">
+                        <script>katex.render("\\frac{o}{i} = \\frac{p}{p'}", eq1);
+                        </script></span>
+                        </td>
+                    </tr>
+                    <tr ><td>Primeira lei da reflexão
+                        </td>
+                        <td>Raio incidente, raio refletido e normal estão no mesmo plano
+                        </td>
+                    </tr>
+                    <tr ><td>Segunda lei da reflexão
+                        </td>
+                        <td>Ângulo de reflexão e ângulo de incidência são iguais
+                        </td>
+                    </tr>
+                    <tr ><td>Velocidades Observador e Imagem
+                        </td>
+                        <td><span id="eq2" class="equacoes">
+                        <script>katex.render("V_i = 2 V_o", eq2);
+                        </script></span>
+                        </td>
+                    </tr>
+                    <tr ><td>Imagens em espelhos
+                        </td>
+                        <td><span id="eq3" class="equacoes">
+                        <script>katex.render("n = \\frac{360^o}{\\alpha} - 1", eq3);
+                        </script></span>
+                        </td>
+                    </tr>
+                    <tr ><td>Equação de Gauss
+                        </td>
+                        <td><span id="eq4" class="equacoes">
+                        <script>katex.render("\\frac{1}{f} = \\frac{1}{p} + \\frac{1}{p'}", eq4);
+                        </script></span>
+                        </td>
+                    </tr>
+                    <tr ><td>Índice de refração absoluto
+                        </td>
+                        <td><span id="eq5" class="equacoes">
+                        <script>katex.render("n = \\frac{c}{v}", eq5);
+                        </script></span>
+                        </td>
+                    </tr>
+                    <tr ><td>Índice de refração relativo
+                        </td>
+                        <td><span id="eq6" class="equacoes">
+                        <script>katex.render("n_{1,2} = \\frac{n_1}{n_2} = \\frac{v_2}{v_1}", eq6);
+                        </script></span>
+                        </td>
+                    </tr>
+                    <tr ><td>Lei de Snell
+                        </td>
+                        <td><span id="eq7" class="equacoes">
+                        <script>katex.render("\\frac{\\sin \\theta_1}{\\sin \\theta_2} = \\frac{n_2}{n_1} = \\frac{\\lambda_1}{\\lambda_2}", eq7);
+                        </script></span>
+                        </td>
+                    </tr>
+                    <tr ><td>Imagens em um dioptro
+                        </td>
+                        <td><span id="eq8" class="equacoes">
+                        <script>katex.render("\\frac{H}{h} = \\frac{n_2}{n_1}", eq8);
+                        </script></span>
+                        </td>
+                    </tr>
+
+              </table>
+                
+                
+
+    </div>
+
+
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+   
+</body>
+</html>

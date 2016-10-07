@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>AFIM</title>
+    <link rel="stylesheet" href="../icons/material.css">
+    <link rel="stylesheet" href="../css/materialize.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/katex.min.css">
+    <link rel="stylesheet" href="../css/afim.css">
+    <script type="text/javascript" src="../js/katex.min.js"></script>
+</head>
+<body>
+
+    <div class="topo-fixo z-depth-1">
+        <div class="valign-wrapper green darken-1 white-text">
+            <h5 class="titulo">AFIM  -  Termodinâmica</h5>
+
+            <div>
+                <a href="../index.html"><i class="material-icons waves-effect
+                          waves-light waves-circle">home</i></a>
+            </div>
+        </div>
+
+       
+    </div>
+	
+    <div class="resumo-page"">
+
+              <table class="bordered">
+                    <tr><td>Primeira Lei
+                        </td>
+                        <td><span id="eq1" class="equacoes">
+                        <script>katex.render("Q = \\tau + \\Delta U", eq1);</script>
+                        </td>
+                    </tr>
+                    <tr ><td>Segunda Lei
+                        </td>
+                        <td>Espontaneamente, o calor flui unicamente de corpos de temperatura mais alta para corpos de temperatura mais baixa.
+                        </td>
+                    </tr>
+                    <tr ><td>Trabalho em máquina térmica
+                        </td>
+                        <td><span id="eq3" class="equacoes">
+                        <script>katex.render("|\\tau| = |Q_1| - |Q_2|", eq3);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Rendimento
+                        </td>
+                        <td><span id="eq4" class="equacoes">
+                        <script>katex.render("\\eta = \\frac{\\tau}{|Q_1|}", eq4);
+                        </script></span></br></br>
+                        <span id="bbb" class="equacoes">
+                        <script>katex.render("\\eta = \\frac{|Q_1| - |Q_2|}{|Q_1|}", bbb);
+                        </script></span></br>
+                        </td>
+                    </tr>
+                    <tr ><td>Ciclo de Carnot
+                        </td>
+                        <td><span id="eq5" class="equacoes">
+                        <script>katex.render("\\frac{Q_2}{Q_1} = \\frac{T_2}{T_1}", eq5);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Rendimento em Carnot
+                        </td>
+                        <td><span id="eq6" class="equacoes">
+                        <script>katex.render("\\eta = 1 - \\frac{T_2}{T_1}", eq6);
+                        </script>
+                        </td>
+                    </tr>
+                    <tr ><td>Entropia
+                        </td>
+                        <td><span id="fff" class="equacoes">
+                        <script>katex.render("\\Delta S = \\frac{Q}{T}",fff);
+                        </script>
+                        </td>
+                    </tr>
+              </table>
+                
+                
+
+    </div>
+
+
+    
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/materialize.min.js"></script>
+   
+</body>
+</html>
